@@ -20,6 +20,18 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>fr.exia</groupId>
+    	<artifactId>hellowordmvc.Contract</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <packaging>pom</packaging>
+  <modules>
+  	<module>helloworldmvc.controller</module>
+  	<module>hellowordmvc.model</module>
+  	<module>helloworldmvc.view</module>
+  	<module>hellowordmvc.Contract</module>
+  	<module>helloworldmvc.main</module>
+  </modules>
 </project>
